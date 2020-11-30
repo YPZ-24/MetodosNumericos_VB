@@ -2,6 +2,7 @@
 
     Dim i, n, ib, c, redon As Integer
     Dim yx, vx As Single
+    Dim segundo As Boolean = False
 
     Dim xi(50) As Single
 
@@ -12,6 +13,10 @@
         tc.Text = ""
         tn.Text = ""
         x.Text = ""
+    End Sub
+
+    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
+        segundo = Not segundo
     End Sub
 
     Private Sub Form_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
@@ -46,8 +51,16 @@
         Next
         lbI.Text = ib
 
-        'y(x) primer grado
-        yx = ((vx - xi(ib + 1)) / (xi(ib) - xi(ib + 1)) * yi(ib)) + ((vx - xi(ib)) / (xi(ib + 1) - xi(ib)) * yi(ib + 1))
+        If segundo Then
+            'segundo
+            yx = ((vx - xi(ib + 1)) * (vx - xi(ib + 2))) / ((xi(ib) - xi(ib + 1)) * (xi(ib) - xi(ib + 2))) * yi(ib) + ((vx - xi(ib)) * (vx - xi(ib + 2))) / ((xi(ib + 1) - xi(ib)) * (xi(ib + 1) - xi(ib + 2))) * yi(ib + 1) + ((vx - xi(ib)) * (vx - xi(ib + 1))) / ((xi(ib + 2) - xi(ib)) * (xi(ib + 2) - xi(ib + 1))) * yi(ib + 2)
+        Else
+            'primer grado
+            yx = ((vx - xi(ib + 1)) / (xi(ib) - xi(ib + 1)) * yi(ib)) + ((vx - xi(ib)) / (xi(ib + 1) - xi(ib)) * yi(ib + 1))
+        End If
+
+
+
         lbInterpolacion.Text = Math.Round(yx, redon)
     End Sub
 

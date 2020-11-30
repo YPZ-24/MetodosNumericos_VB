@@ -42,6 +42,7 @@ Partial Class InterpolacionLagrange
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.Panel1.SuspendLayout()
         CType(Me.nav_Home, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Salida, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -195,7 +196,7 @@ Partial Class InterpolacionLagrange
         Me.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnLimpiar.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnLimpiar.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BtnLimpiar.Location = New System.Drawing.Point(103, 262)
+        Me.BtnLimpiar.Location = New System.Drawing.Point(102, 279)
         Me.BtnLimpiar.Name = "BtnLimpiar"
         Me.BtnLimpiar.Size = New System.Drawing.Size(293, 34)
         Me.BtnLimpiar.TabIndex = 111
@@ -209,7 +210,7 @@ Partial Class InterpolacionLagrange
         Me.BtnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnSalir.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnSalir.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BtnSalir.Location = New System.Drawing.Point(103, 302)
+        Me.BtnSalir.Location = New System.Drawing.Point(102, 319)
         Me.BtnSalir.Name = "BtnSalir"
         Me.BtnSalir.Size = New System.Drawing.Size(293, 34)
         Me.BtnSalir.TabIndex = 110
@@ -224,7 +225,7 @@ Partial Class InterpolacionLagrange
         Me.BtnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnCalcular.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnCalcular.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BtnCalcular.Location = New System.Drawing.Point(102, 222)
+        Me.BtnCalcular.Location = New System.Drawing.Point(101, 239)
         Me.BtnCalcular.Name = "BtnCalcular"
         Me.BtnCalcular.Size = New System.Drawing.Size(293, 34)
         Me.BtnCalcular.TabIndex = 109
@@ -255,12 +256,24 @@ Partial Class InterpolacionLagrange
         Me.Column3.HeaderText = "y"
         Me.Column3.Name = "Column3"
         '
+        'CheckBox1
+        '
+        Me.CheckBox1.AutoSize = True
+        Me.CheckBox1.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CheckBox1.Location = New System.Drawing.Point(192, 200)
+        Me.CheckBox1.Name = "CheckBox1"
+        Me.CheckBox1.Size = New System.Drawing.Size(113, 21)
+        Me.CheckBox1.TabIndex = 125
+        Me.CheckBox1.Text = "Segundo Grado"
+        Me.CheckBox1.UseVisualStyleBackColor = True
+        '
         'InterpolacionLagrange
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(984, 541)
+        Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.lbInterpolacion)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.lbTxtUno)
@@ -307,4 +320,5 @@ Partial Class InterpolacionLagrange
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents CheckBox1 As CheckBox
 End Class
