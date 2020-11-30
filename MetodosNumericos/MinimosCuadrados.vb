@@ -3,6 +3,17 @@
     Dim i, n, c, redon As Integer
     Dim a, b, sumaX, sumaY, sumaXY, sumaXX, xMedia, yMedia, xMin, yMin, xMax, yMax As Single
 
+    Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
+        Salida.Rows.Clear()
+        lbVx.Text = "Aún no se ha encontrado"
+        lbA.Text = "Aún no se ha encontrado"
+        lbB.Text = "Aún no se ha encontrado"
+        tc.Text = ""
+        tn.Text = ""
+        vx.Text = ""
+        graf.Series(0).Points.Clear()
+        graf.Series(1).Points.Clear()
+    End Sub
 
     Private Sub BtnSalir_Click(sender As Object, e As EventArgs) Handles BtnSalir.Click
         Me.Close()

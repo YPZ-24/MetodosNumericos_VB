@@ -19,4 +19,9 @@
             Salida.Rows.Add(k, impar)
         Next
     End Sub
+
+    Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
+        Salida.Rows.Clear()
+        tn.Text = ""
+    End Sub
 End Class

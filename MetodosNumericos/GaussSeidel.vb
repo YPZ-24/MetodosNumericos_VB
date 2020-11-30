@@ -8,6 +8,24 @@ Public Class GaussSeidel
     Dim ex(50), ey(50), ez(50) As Single
     Dim x(50), y(50), z(50) As Single
 
+    Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
+        Salida.Rows.Clear()
+        lbraiz.Text = "Aún no se ha encontrado"
+        tc.Text = ""
+        a11.Clear()
+        a12.Clear()
+        a13.Clear()
+        a21.Clear()
+        a22.Clear()
+        a23.Clear()
+        a31.Clear()
+        a32.Clear()
+        a33.Clear()
+        b1.Clear()
+        b2.Clear()
+        b3.Clear()
+    End Sub
+
     Private Sub BtnSalir_Click(sender As Object, e As EventArgs) Handles BtnSalir.Click
         Me.Close()
     End Sub

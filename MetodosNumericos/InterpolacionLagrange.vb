@@ -5,6 +5,14 @@
 
     Dim xi(50) As Single
 
+    Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
+        Salida.Rows.Clear()
+        lbInterpolacion.Text = "Aún no se ha encontrado"
+        lbI.Text = "Aún no se ha encontrado"
+        tc.Text = ""
+        tn.Text = ""
+        x.Text = ""
+    End Sub
 
     Private Sub Form_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
         MetodosNumericos.Show()

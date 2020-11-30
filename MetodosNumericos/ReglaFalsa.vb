@@ -64,4 +64,12 @@ Public Class ReglaFalsa
         MetodosNumericos.Show()
     End Sub
 
+    Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
+        Salida.Rows.Clear()
+        lbraiz.Text = "Aún no se ha encontrado"
+        tc.Text = ""
+        tf.Text = ""
+        ta.Text = ""
+        tb.Text = ""
+    End Sub
 End Class

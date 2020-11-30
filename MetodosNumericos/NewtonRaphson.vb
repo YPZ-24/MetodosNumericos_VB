@@ -55,4 +55,13 @@ Public Class NewtonRaphson
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
         Me.Close()
     End Sub
+
+    Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
+        Salida.Rows.Clear()
+        lbraiz.Text = "Aún no se ha encontrado"
+        tc.Text = ""
+        tf.Text = ""
+        tfd.Text = ""
+        txi.Text = ""
+    End Sub
 End Class

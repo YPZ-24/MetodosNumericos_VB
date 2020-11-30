@@ -3,6 +3,18 @@
     Dim i, k, r, n, vx, ib, m, c, redon As Integer
     Dim s, prod, suma, prod1, final As Single
 
+    Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
+        Salida.Rows.Clear()
+        SalidaCoeficientes.Rows.Clear()
+        lbInterpolacion.Text = "Aún no se ha encontrado"
+        lbI.Text = "Aún no se ha encontrado"
+        lbM.Text = "Aún no se ha encontrado"
+        lbS.Text = "Aún no se ha encontrado"
+        tc.Text = ""
+        tn.Text = ""
+        x.Text = ""
+    End Sub
+
     Private Sub BtnCalcular_Click(sender As Object, e As EventArgs) Handles BtnCalcular.Click
         n = tn.Text
         vx = x.Text
