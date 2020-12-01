@@ -44,6 +44,9 @@ Public Class GaussSeidel
         redon = c + 2
         ec = 0.5 * 10 ^ (-c)
         ex(i) = 1 : ey(i) = 1 : ez(i) = 1
+        Salida.Rows.Add(i, Math.Round(x(i), redon), Math.Round(y(i), redon),
+            Math.Round(z(i), redon),
+            "----", "----", "----")
         Do While ex(i) > ec Or ey(i) > ec Or ez(i) > ec
             i = i + 1
             x(i) = (b1.Text - a12.Text * y(i - 1) - a13.Text * z(i - 1)) / a11.Text

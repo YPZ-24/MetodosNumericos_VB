@@ -113,7 +113,7 @@ Partial Class MetodosNumericos
         Me.nav_Im.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nav_Im.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nav_Im.ForeColor = System.Drawing.Color.White
-        Me.nav_Im.IconChar = FontAwesome.Sharp.IconChar.Music
+        Me.nav_Im.IconChar = FontAwesome.Sharp.IconChar.Sketch
         Me.nav_Im.IconColor = System.Drawing.Color.White
         Me.nav_Im.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.nav_Im.IconSize = 35
@@ -134,7 +134,7 @@ Partial Class MetodosNumericos
         Me.nav_R2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nav_R2.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nav_R2.ForeColor = System.Drawing.Color.White
-        Me.nav_R2.IconChar = FontAwesome.Sharp.IconChar.Music
+        Me.nav_R2.IconChar = FontAwesome.Sharp.IconChar.SquareRootAlt
         Me.nav_R2.IconColor = System.Drawing.Color.White
         Me.nav_R2.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.nav_R2.IconSize = 35
@@ -156,7 +156,7 @@ Partial Class MetodosNumericos
         Me.nav_Bi.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nav_Bi.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nav_Bi.ForeColor = System.Drawing.Color.White
-        Me.nav_Bi.IconChar = FontAwesome.Sharp.IconChar.Music
+        Me.nav_Bi.IconChar = FontAwesome.Sharp.IconChar.Modx
         Me.nav_Bi.IconColor = System.Drawing.Color.White
         Me.nav_Bi.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.nav_Bi.IconSize = 35
@@ -178,7 +178,7 @@ Partial Class MetodosNumericos
         Me.nav_RF.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nav_RF.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nav_RF.ForeColor = System.Drawing.Color.White
-        Me.nav_RF.IconChar = FontAwesome.Sharp.IconChar.Music
+        Me.nav_RF.IconChar = FontAwesome.Sharp.IconChar.RulerHorizontal
         Me.nav_RF.IconColor = System.Drawing.Color.White
         Me.nav_RF.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.nav_RF.IconSize = 35
@@ -200,7 +200,7 @@ Partial Class MetodosNumericos
         Me.nav_NR.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nav_NR.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nav_NR.ForeColor = System.Drawing.Color.White
-        Me.nav_NR.IconChar = FontAwesome.Sharp.IconChar.Music
+        Me.nav_NR.IconChar = FontAwesome.Sharp.IconChar.AppleAlt
         Me.nav_NR.IconColor = System.Drawing.Color.White
         Me.nav_NR.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.nav_NR.IconSize = 35
@@ -235,7 +235,7 @@ Partial Class MetodosNumericos
         Me.nav_Ja.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nav_Ja.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nav_Ja.ForeColor = System.Drawing.Color.White
-        Me.nav_Ja.IconChar = FontAwesome.Sharp.IconChar.Music
+        Me.nav_Ja.IconChar = FontAwesome.Sharp.IconChar.Mountain
         Me.nav_Ja.IconColor = System.Drawing.Color.White
         Me.nav_Ja.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.nav_Ja.IconSize = 35
@@ -257,7 +257,7 @@ Partial Class MetodosNumericos
         Me.nav_GS.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nav_GS.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nav_GS.ForeColor = System.Drawing.Color.White
-        Me.nav_GS.IconChar = FontAwesome.Sharp.IconChar.Music
+        Me.nav_GS.IconChar = FontAwesome.Sharp.IconChar.Gofore
         Me.nav_GS.IconColor = System.Drawing.Color.White
         Me.nav_GS.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.nav_GS.IconSize = 35
@@ -279,7 +279,7 @@ Partial Class MetodosNumericos
         Me.nav_IN.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nav_IN.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nav_IN.ForeColor = System.Drawing.Color.White
-        Me.nav_IN.IconChar = FontAwesome.Sharp.IconChar.Music
+        Me.nav_IN.IconChar = FontAwesome.Sharp.IconChar.Apple
         Me.nav_IN.IconColor = System.Drawing.Color.White
         Me.nav_IN.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.nav_IN.IconSize = 35
@@ -301,7 +301,7 @@ Partial Class MetodosNumericos
         Me.nav_IL.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nav_IL.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nav_IL.ForeColor = System.Drawing.Color.White
-        Me.nav_IL.IconChar = FontAwesome.Sharp.IconChar.Music
+        Me.nav_IL.IconChar = FontAwesome.Sharp.IconChar.Pushed
         Me.nav_IL.IconColor = System.Drawing.Color.White
         Me.nav_IL.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.nav_IL.IconSize = 35
@@ -323,7 +323,7 @@ Partial Class MetodosNumericos
         Me.nav_MC.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nav_MC.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nav_MC.ForeColor = System.Drawing.Color.White
-        Me.nav_MC.IconChar = FontAwesome.Sharp.IconChar.Music
+        Me.nav_MC.IconChar = FontAwesome.Sharp.IconChar.Th
         Me.nav_MC.IconColor = System.Drawing.Color.White
         Me.nav_MC.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.nav_MC.IconSize = 35

@@ -3,7 +3,6 @@
     Dim i, n, ib, c, redon As Integer
     Dim yx, vx As Single
     Dim segundo As Boolean = False
-
     Dim xi(50) As Single
 
     Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
@@ -58,8 +57,6 @@
             'primer grado
             yx = ((vx - xi(ib + 1)) / (xi(ib) - xi(ib + 1)) * yi(ib)) + ((vx - xi(ib)) / (xi(ib + 1) - xi(ib)) * yi(ib + 1))
         End If
-
-
 
         lbInterpolacion.Text = Math.Round(yx, redon)
     End Sub
