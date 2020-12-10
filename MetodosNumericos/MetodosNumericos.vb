@@ -48,4 +48,9 @@
         MinimosCuadrados.Show()
         Me.Hide()
     End Sub
+
+    Private Sub IconButton1_Click(sender As Object, e As EventArgs) Handles IconButton1.Click
+        Integracion.Show()
+        Me.Hide()
+    End Sub
 End Class

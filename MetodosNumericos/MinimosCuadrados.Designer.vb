@@ -156,11 +156,11 @@ Partial Class MinimosCuadrados
         'lbA
         '
         Me.lbA.AutoSize = True
-        Me.lbA.Font = New System.Drawing.Font("Advent Pro", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbA.Font = New System.Drawing.Font("HP Simplified", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbA.ForeColor = System.Drawing.SystemColors.ControlText
         Me.lbA.Location = New System.Drawing.Point(693, 79)
         Me.lbA.Name = "lbA"
-        Me.lbA.Size = New System.Drawing.Size(161, 19)
+        Me.lbA.Size = New System.Drawing.Size(168, 19)
         Me.lbA.TabIndex = 94
         Me.lbA.Text = "Aún no se ha encontrado"
         '
@@ -260,11 +260,11 @@ Partial Class MinimosCuadrados
         'lbVx
         '
         Me.lbVx.AutoSize = True
-        Me.lbVx.Font = New System.Drawing.Font("Advent Pro", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbVx.Font = New System.Drawing.Font("HP Simplified", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbVx.ForeColor = System.Drawing.SystemColors.ControlText
         Me.lbVx.Location = New System.Drawing.Point(693, 123)
         Me.lbVx.Name = "lbVx"
-        Me.lbVx.Size = New System.Drawing.Size(188, 22)
+        Me.lbVx.Size = New System.Drawing.Size(203, 23)
         Me.lbVx.TabIndex = 106
         Me.lbVx.Text = "Aún no se ha encontrado"
         '
@@ -282,11 +282,11 @@ Partial Class MinimosCuadrados
         'lbB
         '
         Me.lbB.AutoSize = True
-        Me.lbB.Font = New System.Drawing.Font("Advent Pro", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbB.Font = New System.Drawing.Font("HP Simplified", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbB.ForeColor = System.Drawing.SystemColors.ControlText
         Me.lbB.Location = New System.Drawing.Point(693, 101)
         Me.lbB.Name = "lbB"
-        Me.lbB.Size = New System.Drawing.Size(161, 19)
+        Me.lbB.Size = New System.Drawing.Size(168, 19)
         Me.lbB.TabIndex = 108
         Me.lbB.Text = "Aún no se ha encontrado"
         '

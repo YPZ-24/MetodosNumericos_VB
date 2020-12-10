@@ -98,6 +98,12 @@
     <Compile Include="Impares.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Integracion.Designer.vb">
+      <DependentUpon>Integracion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Integracion.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InterpolacionLagrange.Designer.vb">
       <DependentUpon>InterpolacionLagrange.vb</DependentUpon>
     </Compile>
@@ -172,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Impares.resx">
       <DependentUpon>Impares.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Integracion.resx">
+      <DependentUpon>Integracion.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InterpolacionLagrange.resx">
       <DependentUpon>InterpolacionLagrange.vb</DependentUpon>

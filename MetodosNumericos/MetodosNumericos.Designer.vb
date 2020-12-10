@@ -41,20 +41,26 @@ Partial Class MetodosNumericos
         Me.nav_MC = New FontAwesome.Sharp.IconButton()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.FlowLayoutPanel3 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.IconButton1 = New FontAwesome.Sharp.IconButton()
         Me.panel_Principal.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.nav_Home, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.FlowLayoutPanel1.SuspendLayout()
         Me.FlowLayoutPanel2.SuspendLayout()
+        Me.FlowLayoutPanel3.SuspendLayout()
         Me.SuspendLayout()
         '
         'panel_Principal
         '
         Me.panel_Principal.BackColor = System.Drawing.Color.White
+        Me.panel_Principal.Controls.Add(Me.Label2)
         Me.panel_Principal.Controls.Add(Me.Panel1)
         Me.panel_Principal.Controls.Add(Me.FlowLayoutPanel1)
         Me.panel_Principal.Controls.Add(Me.FlowLayoutPanel2)
         Me.panel_Principal.Controls.Add(Me.Label4)
+        Me.panel_Principal.Controls.Add(Me.FlowLayoutPanel3)
         Me.panel_Principal.Controls.Add(Me.Label1)
         Me.panel_Principal.Dock = System.Windows.Forms.DockStyle.Fill
         Me.panel_Principal.Location = New System.Drawing.Point(0, 0)
@@ -358,6 +364,47 @@ Partial Class MetodosNumericos
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "PRIMER PARCIAL"
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Antic Slab", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(685, 103)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(219, 32)
+        Me.Label2.TabIndex = 7
+        Me.Label2.Text = "TERCER PARCIAL"
+        '
+        'FlowLayoutPanel3
+        '
+        Me.FlowLayoutPanel3.Controls.Add(Me.IconButton1)
+        Me.FlowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown
+        Me.FlowLayoutPanel3.Location = New System.Drawing.Point(720, 138)
+        Me.FlowLayoutPanel3.Name = "FlowLayoutPanel3"
+        Me.FlowLayoutPanel3.Size = New System.Drawing.Size(204, 306)
+        Me.FlowLayoutPanel3.TabIndex = 7
+        '
+        'IconButton1
+        '
+        Me.IconButton1.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.IconButton1.FlatAppearance.BorderSize = 0
+        Me.IconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.IconButton1.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IconButton1.ForeColor = System.Drawing.Color.White
+        Me.IconButton1.IconChar = FontAwesome.Sharp.IconChar.Plus
+        Me.IconButton1.IconColor = System.Drawing.Color.White
+        Me.IconButton1.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.IconButton1.IconSize = 35
+        Me.IconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton1.Location = New System.Drawing.Point(3, 3)
+        Me.IconButton1.Name = "IconButton1"
+        Me.IconButton1.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.IconButton1.Size = New System.Drawing.Size(197, 54)
+        Me.IconButton1.TabIndex = 1
+        Me.IconButton1.Text = "Integración Numérica"
+        Me.IconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.IconButton1.UseVisualStyleBackColor = False
+        '
         'MetodosNumericos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -374,6 +421,7 @@ Partial Class MetodosNumericos
         CType(Me.nav_Home, System.ComponentModel.ISupportInitialize).EndInit()
         Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.FlowLayoutPanel2.ResumeLayout(False)
+        Me.FlowLayoutPanel3.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -395,4 +443,7 @@ Partial Class MetodosNumericos
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label5 As Label
     Friend WithEvents nav_Home As PictureBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents FlowLayoutPanel3 As FlowLayoutPanel
+    Friend WithEvents IconButton1 As FontAwesome.Sharp.IconButton
 End Class

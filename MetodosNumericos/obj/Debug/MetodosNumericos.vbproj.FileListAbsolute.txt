@@ -23,3 +23,4 @@ C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\obj\Deb
 C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.RaizCuadradaDeDos.resources
 C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.ReglaFalsa.resources
 C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\bin\Debug\info.lundin.math.dll
+C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Integracion.resources
