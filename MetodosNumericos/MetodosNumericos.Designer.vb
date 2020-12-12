@@ -24,6 +24,7 @@ Partial Class MetodosNumericos
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MetodosNumericos))
         Me.panel_Principal = New System.Windows.Forms.Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.nav_Home = New System.Windows.Forms.PictureBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -40,10 +41,11 @@ Partial Class MetodosNumericos
         Me.nav_IL = New FontAwesome.Sharp.IconButton()
         Me.nav_MC = New FontAwesome.Sharp.IconButton()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.FlowLayoutPanel3 = New System.Windows.Forms.FlowLayoutPanel()
         Me.IconButton1 = New FontAwesome.Sharp.IconButton()
+        Me.IconButton2 = New FontAwesome.Sharp.IconButton()
+        Me.IconButton3 = New FontAwesome.Sharp.IconButton()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.panel_Principal.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.nav_Home, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -67,6 +69,16 @@ Partial Class MetodosNumericos
         Me.panel_Principal.Name = "panel_Principal"
         Me.panel_Principal.Size = New System.Drawing.Size(984, 541)
         Me.panel_Principal.TabIndex = 0
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Antic Slab", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(685, 103)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(219, 32)
+        Me.Label2.TabIndex = 7
+        Me.Label2.Text = "TERCER PARCIAL"
         '
         'Panel1
         '
@@ -354,29 +366,11 @@ Partial Class MetodosNumericos
         Me.Label4.TabIndex = 2
         Me.Label4.Text = "SEGUNDO PARCIAL"
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Antic Slab", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(65, 103)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(220, 32)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "PRIMER PARCIAL"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Antic Slab", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(685, 103)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(219, 32)
-        Me.Label2.TabIndex = 7
-        Me.Label2.Text = "TERCER PARCIAL"
-        '
         'FlowLayoutPanel3
         '
         Me.FlowLayoutPanel3.Controls.Add(Me.IconButton1)
+        Me.FlowLayoutPanel3.Controls.Add(Me.IconButton2)
+        Me.FlowLayoutPanel3.Controls.Add(Me.IconButton3)
         Me.FlowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown
         Me.FlowLayoutPanel3.Location = New System.Drawing.Point(720, 138)
         Me.FlowLayoutPanel3.Name = "FlowLayoutPanel3"
@@ -400,10 +394,64 @@ Partial Class MetodosNumericos
         Me.IconButton1.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.IconButton1.Size = New System.Drawing.Size(197, 54)
         Me.IconButton1.TabIndex = 1
-        Me.IconButton1.Text = "Integración Numérica"
+        Me.IconButton1.Text = "Integración (Rectangulos)"
         Me.IconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.IconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.IconButton1.UseVisualStyleBackColor = False
+        '
+        'IconButton2
+        '
+        Me.IconButton2.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.IconButton2.FlatAppearance.BorderSize = 0
+        Me.IconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.IconButton2.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IconButton2.ForeColor = System.Drawing.Color.White
+        Me.IconButton2.IconChar = FontAwesome.Sharp.IconChar.Plus
+        Me.IconButton2.IconColor = System.Drawing.Color.White
+        Me.IconButton2.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.IconButton2.IconSize = 35
+        Me.IconButton2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton2.Location = New System.Drawing.Point(3, 63)
+        Me.IconButton2.Name = "IconButton2"
+        Me.IconButton2.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.IconButton2.Size = New System.Drawing.Size(197, 54)
+        Me.IconButton2.TabIndex = 2
+        Me.IconButton2.Text = "Integración (Trapecio)"
+        Me.IconButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.IconButton2.UseVisualStyleBackColor = False
+        '
+        'IconButton3
+        '
+        Me.IconButton3.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.IconButton3.FlatAppearance.BorderSize = 0
+        Me.IconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.IconButton3.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IconButton3.ForeColor = System.Drawing.Color.White
+        Me.IconButton3.IconChar = FontAwesome.Sharp.IconChar.Plus
+        Me.IconButton3.IconColor = System.Drawing.Color.White
+        Me.IconButton3.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.IconButton3.IconSize = 35
+        Me.IconButton3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton3.Location = New System.Drawing.Point(3, 123)
+        Me.IconButton3.Name = "IconButton3"
+        Me.IconButton3.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.IconButton3.Size = New System.Drawing.Size(197, 54)
+        Me.IconButton3.TabIndex = 3
+        Me.IconButton3.Text = "Integración (Simpson)"
+        Me.IconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.IconButton3.UseVisualStyleBackColor = False
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Antic Slab", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(65, 103)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(220, 32)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "PRIMER PARCIAL"
         '
         'MetodosNumericos
         '
@@ -446,4 +494,6 @@ Partial Class MetodosNumericos
     Friend WithEvents Label2 As Label
     Friend WithEvents FlowLayoutPanel3 As FlowLayoutPanel
     Friend WithEvents IconButton1 As FontAwesome.Sharp.IconButton
+    Friend WithEvents IconButton2 As FontAwesome.Sharp.IconButton
+    Friend WithEvents IconButton3 As FontAwesome.Sharp.IconButton
 End Class

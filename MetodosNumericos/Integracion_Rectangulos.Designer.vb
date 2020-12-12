@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Integracion
+Partial Class Integracion_Rectangulos
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -73,9 +73,9 @@ Partial Class Integracion
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(172, 7)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(375, 44)
+        Me.Label5.Size = New System.Drawing.Size(437, 44)
         Me.Label5.TabIndex = 0
-        Me.Label5.Text = "Integración Numérica"
+        Me.Label5.Text = "Integración (Rectangulos)"
         '
         'Panel1
         '
@@ -332,7 +332,7 @@ Partial Class Integracion
         Me.btnGraficar.Text = "Graficar"
         Me.btnGraficar.UseVisualStyleBackColor = False
         '
-        'Integracion
+        'Integracion_Rectangulos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -357,7 +357,7 @@ Partial Class Integracion
         Me.Controls.Add(Me.tc)
         Me.Controls.Add(Me.lc)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "Integracion"
+        Me.Name = "Integracion_Rectangulos"
         Me.Text = "Integracion"
         CType(Me.nav_Home, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)

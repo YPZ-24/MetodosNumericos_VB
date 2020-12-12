@@ -50,7 +50,17 @@
     End Sub
 
     Private Sub IconButton1_Click(sender As Object, e As EventArgs) Handles IconButton1.Click
-        Integracion.Show()
+        Integracion_Rectangulos.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub IconButton2_Click(sender As Object, e As EventArgs) Handles IconButton2.Click
+        Integracion_Trapecio.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub IconButton3_Click(sender As Object, e As EventArgs) Handles IconButton3.Click
+        Integracion_Simpson.Show()
         Me.Hide()
     End Sub
 End Class

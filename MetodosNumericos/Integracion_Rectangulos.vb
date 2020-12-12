@@ -1,6 +1,6 @@
 ﻿Imports info.lundin.math
 
-Public Class Integracion
+Public Class Integracion_Rectangulos
 
     Dim c, redon, i As Integer
     Dim h, a, b, n, suma, res, ec As Single
