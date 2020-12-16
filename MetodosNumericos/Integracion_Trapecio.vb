@@ -4,7 +4,6 @@ Public Class Integracion_Trapecio
 
     Dim c, redon, i As Integer
     Dim h, a, b, n, suma, res, ec As Single
-
     Dim inte(500), err(500) As Single
     Dim g As Graphics
 
@@ -13,6 +12,8 @@ Public Class Integracion_Trapecio
         parser = New ExpressionParser
         parser.Values.Clear()
         parser.Values.Add("x", x)
+        parser.Values.Add("e", Math.E)
+        parser.Values.Add("pi", Math.PI)
         Return parser.Parse(tf.Text)
     End Function
 
@@ -25,12 +26,10 @@ Public Class Integracion_Trapecio
         redon = c + 2
         ec = 0.5 * 10 ^ (-c)
 
-
         For k = 1 To n - 1 Step 1
             res = f(a + k * h)
             suma += res
         Next
-        'inte(i) = h * suma
         inte(i) = (h / 2) * (f(a) + f(b) + 2 * suma)
         Salida.Rows.Add(n, Math.Round(inte(i), redon), "----")
 
@@ -57,6 +56,7 @@ Public Class Integracion_Trapecio
         Dim vari As Single = a
 
         Do While vari <= b
+            grafica.Series(1).Points.AddXY(Math.Round(vari, 1), f(vari))
             grafica.Series(0).Points.AddXY(Math.Round(vari, 1), f(vari))
             vari += 0.1
         Loop

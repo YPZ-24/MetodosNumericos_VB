@@ -26,3 +26,5 @@ C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\bin\Deb
 C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Integracion_Trapecio.resources
 C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Integracion_Simpson.resources
 C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Integracion_Rectangulos.resources
+C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Integracion_CuadraturaGauss.resources
+C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.vbproj.ResolveComReference.cache

@@ -63,4 +63,9 @@
         Integracion_Simpson.Show()
         Me.Hide()
     End Sub
+
+    Private Sub IconButton4_Click(sender As Object, e As EventArgs) Handles IconButton4.Click
+        Integracion_CuadraturaGauss.Show()
+        Me.Hide()
+    End Sub
 End Class

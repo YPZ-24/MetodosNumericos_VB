@@ -46,6 +46,7 @@ Partial Class MetodosNumericos
         Me.IconButton2 = New FontAwesome.Sharp.IconButton()
         Me.IconButton3 = New FontAwesome.Sharp.IconButton()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.IconButton4 = New FontAwesome.Sharp.IconButton()
         Me.panel_Principal.SuspendLayout()
         Me.Panel1.SuspendLayout()
         CType(Me.nav_Home, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -371,6 +372,7 @@ Partial Class MetodosNumericos
         Me.FlowLayoutPanel3.Controls.Add(Me.IconButton1)
         Me.FlowLayoutPanel3.Controls.Add(Me.IconButton2)
         Me.FlowLayoutPanel3.Controls.Add(Me.IconButton3)
+        Me.FlowLayoutPanel3.Controls.Add(Me.IconButton4)
         Me.FlowLayoutPanel3.FlowDirection = System.Windows.Forms.FlowDirection.TopDown
         Me.FlowLayoutPanel3.Location = New System.Drawing.Point(720, 138)
         Me.FlowLayoutPanel3.Name = "FlowLayoutPanel3"
@@ -453,6 +455,28 @@ Partial Class MetodosNumericos
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "PRIMER PARCIAL"
         '
+        'IconButton4
+        '
+        Me.IconButton4.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.IconButton4.FlatAppearance.BorderSize = 0
+        Me.IconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.IconButton4.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IconButton4.ForeColor = System.Drawing.Color.White
+        Me.IconButton4.IconChar = FontAwesome.Sharp.IconChar.Plus
+        Me.IconButton4.IconColor = System.Drawing.Color.White
+        Me.IconButton4.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.IconButton4.IconSize = 35
+        Me.IconButton4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton4.Location = New System.Drawing.Point(3, 183)
+        Me.IconButton4.Name = "IconButton4"
+        Me.IconButton4.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.IconButton4.Size = New System.Drawing.Size(197, 54)
+        Me.IconButton4.TabIndex = 4
+        Me.IconButton4.Text = "Integración (Cuadratura Gauss)"
+        Me.IconButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.IconButton4.UseVisualStyleBackColor = False
+        '
         'MetodosNumericos
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -496,4 +520,5 @@ Partial Class MetodosNumericos
     Friend WithEvents IconButton1 As FontAwesome.Sharp.IconButton
     Friend WithEvents IconButton2 As FontAwesome.Sharp.IconButton
     Friend WithEvents IconButton3 As FontAwesome.Sharp.IconButton
+    Friend WithEvents IconButton4 As FontAwesome.Sharp.IconButton
 End Class

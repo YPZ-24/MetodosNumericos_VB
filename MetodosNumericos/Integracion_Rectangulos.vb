@@ -13,6 +13,8 @@ Public Class Integracion_Rectangulos
         parser = New ExpressionParser
         parser.Values.Clear()
         parser.Values.Add("x", x)
+        parser.Values.Add("e", Math.E)
+        parser.Values.Add("pi", Math.PI)
         Return parser.Parse(tf.Text)
     End Function
 
@@ -55,6 +57,7 @@ Public Class Integracion_Rectangulos
         Dim vari As Single = a
 
         Do While vari <= b
+            grafica.Series(1).Points.AddXY(Math.Round(vari, 1), f(vari))
             grafica.Series(0).Points.AddXY(Math.Round(vari, 1), f(vari))
             vari += 0.1
         Loop
