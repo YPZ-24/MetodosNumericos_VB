@@ -93,10 +93,9 @@ Public Class Integracion_CuadraturaGauss
     End Sub
 
     Private Sub Form_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
-        MetodosNumericos.Show()
+        Libro.Close()
         ExcelApp.Quit()
-        Libro = Nothing
-        ExcelApp = Nothing
+        MetodosNumericos.Show()
     End Sub
 
     Private Sub BtnSalir_Click(sender As Object, e As EventArgs) Handles BtnSalir.Click

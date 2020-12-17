@@ -68,4 +68,9 @@
         Integracion_CuadraturaGauss.Show()
         Me.Hide()
     End Sub
+
+    Private Sub IconButton5_Click(sender As Object, e As EventArgs) Handles IconButton5.Click
+        Derivada_Euler.Show()
+        Me.Hide()
+    End Sub
 End Class
