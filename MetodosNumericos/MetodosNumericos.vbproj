@@ -92,6 +92,18 @@
     <Compile Include="Derivada_Euler.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Derivada_EulerMejorada.Designer.vb">
+      <DependentUpon>Derivada_EulerMejorada.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Derivada_EulerMejorada.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Derivada_RungeKutta.Designer.vb">
+      <DependentUpon>Derivada_RungeKutta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Derivada_RungeKutta.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GaussSeidel.Designer.vb">
       <DependentUpon>GaussSeidel.vb</DependentUpon>
     </Compile>
@@ -199,6 +211,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Derivada_Euler.resx">
       <DependentUpon>Derivada_Euler.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivada_EulerMejorada.resx">
+      <DependentUpon>Derivada_EulerMejorada.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derivada_RungeKutta.resx">
+      <DependentUpon>Derivada_RungeKutta.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GaussSeidel.resx">
       <DependentUpon>GaussSeidel.vb</DependentUpon>

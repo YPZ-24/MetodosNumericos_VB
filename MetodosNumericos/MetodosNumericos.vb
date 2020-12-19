@@ -69,8 +69,18 @@
         Me.Hide()
     End Sub
 
-    Private Sub IconButton5_Click(sender As Object, e As EventArgs) Handles IconButton5.Click
+    Private Sub IconButton6_Click(sender As Object, e As EventArgs) Handles IconButton6.Click
         Derivada_Euler.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub IconButton5_Click(sender As Object, e As EventArgs) Handles IconButton5.Click
+        Derivada_EulerMejorada.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub IconButton7_Click(sender As Object, e As EventArgs) Handles IconButton7.Click
+        Derivada_RungeKutta.Show()
         Me.Hide()
     End Sub
 End Class

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Derivada_Euler
+Partial Class Derivada_RungeKutta
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,9 +22,13 @@ Partial Class Derivada_Euler
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.nav_Home = New System.Windows.Forms.PictureBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.th = New System.Windows.Forms.TextBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.txf = New System.Windows.Forms.TextBox()
         Me.Salida = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -41,276 +45,10 @@ Partial Class Derivada_Euler
         Me.tf = New System.Windows.Forms.TextBox()
         Me.tc = New System.Windows.Forms.TextBox()
         Me.lc = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.txf = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.th = New System.Windows.Forms.TextBox()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        CType(Me.nav_Home, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel1.SuspendLayout()
-        CType(Me.Salida, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
+        CType(Me.Salida, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'nav_Home
-        '
-        Me.nav_Home.Image = Global.MetodosNumericos.My.Resources.Resources.Imagen1__2_
-        Me.nav_Home.Location = New System.Drawing.Point(12, -21)
-        Me.nav_Home.Name = "nav_Home"
-        Me.nav_Home.Size = New System.Drawing.Size(130, 100)
-        Me.nav_Home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.nav_Home.TabIndex = 5
-        Me.nav_Home.TabStop = False
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Antic Slab", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(172, 7)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(285, 44)
-        Me.Label5.TabIndex = 0
-        Me.Label5.Text = "Derivada (Euler)"
-        '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(13, Byte), Integer), CType(CType(13, Byte), Integer), CType(CType(13, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.nav_Home)
-        Me.Panel1.Controls.Add(Me.Label5)
-        Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(984, 58)
-        Me.Panel1.TabIndex = 92
-        '
-        'Salida
-        '
-        Me.Salida.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.Salida.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2})
-        Me.Salida.Location = New System.Drawing.Point(21, 402)
-        Me.Salida.Name = "Salida"
-        Me.Salida.Size = New System.Drawing.Size(564, 127)
-        Me.Salida.TabIndex = 149
-        '
-        'Column1
-        '
-        Me.Column1.HeaderText = "Valor de x"
-        Me.Column1.Name = "Column1"
-        '
-        'Column2
-        '
-        Me.Column2.HeaderText = "Valor y Aproximado"
-        Me.Column2.Name = "Column2"
-        '
-        'lbresu
-        '
-        Me.lbresu.AutoSize = True
-        Me.lbresu.Font = New System.Drawing.Font("Advent Pro", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbresu.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lbresu.Location = New System.Drawing.Point(575, 88)
-        Me.lbresu.Name = "lbresu"
-        Me.lbresu.Size = New System.Drawing.Size(188, 22)
-        Me.lbresu.TabIndex = 148
-        Me.lbresu.Text = "Aún no se ha encontrado"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Advent Pro Medium", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(206, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(451, 89)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(125, 22)
-        Me.Label2.TabIndex = 147
-        Me.Label2.Text = "RESULTADO = "
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label1.Location = New System.Drawing.Point(65, 119)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(31, 17)
-        Me.Label1.TabIndex = 146
-        Me.Label1.Text = "x(0)"
-        '
-        'tx0
-        '
-        Me.tx0.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
-        Me.tx0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.tx0.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tx0.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.tx0.Location = New System.Drawing.Point(180, 116)
-        Me.tx0.Name = "tx0"
-        Me.tx0.Size = New System.Drawing.Size(165, 25)
-        Me.tx0.TabIndex = 145
-        '
-        'ty0
-        '
-        Me.ty0.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
-        Me.ty0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.ty0.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ty0.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.ty0.Location = New System.Drawing.Point(180, 147)
-        Me.ty0.Name = "ty0"
-        Me.ty0.Size = New System.Drawing.Size(165, 25)
-        Me.ty0.TabIndex = 144
-        '
-        'lbTxtDos
-        '
-        Me.lbTxtDos.AutoSize = True
-        Me.lbTxtDos.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbTxtDos.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lbTxtDos.Location = New System.Drawing.Point(65, 150)
-        Me.lbTxtDos.Name = "lbTxtDos"
-        Me.lbTxtDos.Size = New System.Drawing.Size(31, 17)
-        Me.lbTxtDos.TabIndex = 143
-        Me.lbTxtDos.Text = "y(0)"
-        '
-        'BtnLimpiar
-        '
-        Me.BtnLimpiar.BackColor = System.Drawing.Color.DarkGray
-        Me.BtnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnLimpiar.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnLimpiar.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BtnLimpiar.Location = New System.Drawing.Point(68, 322)
-        Me.BtnLimpiar.Name = "BtnLimpiar"
-        Me.BtnLimpiar.Size = New System.Drawing.Size(293, 34)
-        Me.BtnLimpiar.TabIndex = 142
-        Me.BtnLimpiar.Text = "Limpiar"
-        Me.BtnLimpiar.UseVisualStyleBackColor = False
-        '
-        'BtnSalir
-        '
-        Me.BtnSalir.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnSalir.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnSalir.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BtnSalir.Location = New System.Drawing.Point(68, 362)
-        Me.BtnSalir.Name = "BtnSalir"
-        Me.BtnSalir.Size = New System.Drawing.Size(293, 34)
-        Me.BtnSalir.TabIndex = 141
-        Me.BtnSalir.Text = "Salir"
-        Me.BtnSalir.UseVisualStyleBackColor = False
-        '
-        'BtnCalcular
-        '
-        Me.BtnCalcular.BackColor = System.Drawing.Color.FromArgb(CType(CType(188, Byte), Integer), CType(CType(56, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.BtnCalcular.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnCalcular.FlatAppearance.BorderSize = 0
-        Me.BtnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnCalcular.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCalcular.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BtnCalcular.Location = New System.Drawing.Point(68, 281)
-        Me.BtnCalcular.Name = "BtnCalcular"
-        Me.BtnCalcular.Size = New System.Drawing.Size(293, 34)
-        Me.BtnCalcular.TabIndex = 140
-        Me.BtnCalcular.Text = "Calcular"
-        Me.BtnCalcular.UseVisualStyleBackColor = False
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(65, 88)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(101, 17)
-        Me.Label3.TabIndex = 138
-        Me.Label3.Text = "Dame la función"
-        '
-        'tf
-        '
-        Me.tf.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
-        Me.tf.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.tf.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tf.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.tf.Location = New System.Drawing.Point(180, 85)
-        Me.tf.Name = "tf"
-        Me.tf.Size = New System.Drawing.Size(165, 25)
-        Me.tf.TabIndex = 136
-        '
-        'tc
-        '
-        Me.tc.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
-        Me.tc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.tc.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tc.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.tc.Location = New System.Drawing.Point(180, 242)
-        Me.tc.Name = "tc"
-        Me.tc.Size = New System.Drawing.Size(165, 25)
-        Me.tc.TabIndex = 139
-        '
-        'lc
-        '
-        Me.lc.AutoSize = True
-        Me.lc.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lc.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lc.Location = New System.Drawing.Point(65, 245)
-        Me.lc.Name = "lc"
-        Me.lc.Size = New System.Drawing.Size(75, 17)
-        Me.lc.TabIndex = 137
-        Me.lc.Text = "Dame cifras"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label6.Location = New System.Drawing.Point(65, 183)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(27, 17)
-        Me.Label6.TabIndex = 155
-        Me.Label6.Text = "x(f)"
-        '
-        'txf
-        '
-        Me.txf.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
-        Me.txf.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txf.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txf.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txf.Location = New System.Drawing.Point(180, 180)
-        Me.txf.Name = "txf"
-        Me.txf.Size = New System.Drawing.Size(165, 25)
-        Me.txf.TabIndex = 154
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label4.Location = New System.Drawing.Point(65, 214)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(15, 17)
-        Me.Label4.TabIndex = 157
-        Me.Label4.Text = "h"
-        '
-        'th
-        '
-        Me.th.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
-        Me.th.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.th.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.th.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.th.Location = New System.Drawing.Point(180, 211)
-        Me.th.Name = "th"
-        Me.th.Size = New System.Drawing.Size(165, 25)
-        Me.th.TabIndex = 156
-        '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(13, Byte), Integer), CType(CType(13, Byte), Integer), CType(CType(13, Byte), Integer))
-        Me.Panel2.Controls.Add(Me.PictureBox1)
-        Me.Panel2.Controls.Add(Me.Label7)
-        Me.Panel2.Location = New System.Drawing.Point(-3, 0)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(984, 58)
-        Me.Panel2.TabIndex = 92
         '
         'PictureBox1
         '
@@ -329,11 +67,237 @@ Partial Class Derivada_Euler
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(172, 7)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(285, 44)
+        Me.Label7.Size = New System.Drawing.Size(400, 44)
         Me.Label7.TabIndex = 0
-        Me.Label7.Text = "Derivada (Euler)"
+        Me.Label7.Text = "Derivada (Runge Kutta)"
         '
-        'Derivada_Euler
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.FromArgb(CType(CType(13, Byte), Integer), CType(CType(13, Byte), Integer), CType(CType(13, Byte), Integer))
+        Me.Panel2.Controls.Add(Me.PictureBox1)
+        Me.Panel2.Controls.Add(Me.Label7)
+        Me.Panel2.Location = New System.Drawing.Point(0, 0)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(984, 58)
+        Me.Panel2.TabIndex = 94
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label4.Location = New System.Drawing.Point(65, 207)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(15, 17)
+        Me.Label4.TabIndex = 193
+        Me.Label4.Text = "h"
+        '
+        'th
+        '
+        Me.th.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
+        Me.th.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.th.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.th.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.th.Location = New System.Drawing.Point(180, 204)
+        Me.th.Name = "th"
+        Me.th.Size = New System.Drawing.Size(165, 25)
+        Me.th.TabIndex = 192
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label6.Location = New System.Drawing.Point(65, 176)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(27, 17)
+        Me.Label6.TabIndex = 191
+        Me.Label6.Text = "x(f)"
+        '
+        'txf
+        '
+        Me.txf.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
+        Me.txf.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txf.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txf.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.txf.Location = New System.Drawing.Point(180, 173)
+        Me.txf.Name = "txf"
+        Me.txf.Size = New System.Drawing.Size(165, 25)
+        Me.txf.TabIndex = 190
+        '
+        'Salida
+        '
+        Me.Salida.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.Salida.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2})
+        Me.Salida.Location = New System.Drawing.Point(21, 395)
+        Me.Salida.Name = "Salida"
+        Me.Salida.Size = New System.Drawing.Size(564, 127)
+        Me.Salida.TabIndex = 189
+        '
+        'Column1
+        '
+        Me.Column1.HeaderText = "Valor de x"
+        Me.Column1.Name = "Column1"
+        '
+        'Column2
+        '
+        Me.Column2.HeaderText = "Valor y Aproximado"
+        Me.Column2.Name = "Column2"
+        '
+        'lbresu
+        '
+        Me.lbresu.AutoSize = True
+        Me.lbresu.Font = New System.Drawing.Font("Advent Pro", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbresu.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.lbresu.Location = New System.Drawing.Point(575, 81)
+        Me.lbresu.Name = "lbresu"
+        Me.lbresu.Size = New System.Drawing.Size(188, 22)
+        Me.lbresu.TabIndex = 188
+        Me.lbresu.Text = "Aún no se ha encontrado"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Advent Pro Medium", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(206, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(451, 82)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(125, 22)
+        Me.Label2.TabIndex = 187
+        Me.Label2.Text = "RESULTADO = "
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.Label1.Location = New System.Drawing.Point(65, 112)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(31, 17)
+        Me.Label1.TabIndex = 186
+        Me.Label1.Text = "x(0)"
+        '
+        'tx0
+        '
+        Me.tx0.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
+        Me.tx0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.tx0.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tx0.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.tx0.Location = New System.Drawing.Point(180, 109)
+        Me.tx0.Name = "tx0"
+        Me.tx0.Size = New System.Drawing.Size(165, 25)
+        Me.tx0.TabIndex = 185
+        '
+        'ty0
+        '
+        Me.ty0.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
+        Me.ty0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.ty0.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ty0.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.ty0.Location = New System.Drawing.Point(180, 140)
+        Me.ty0.Name = "ty0"
+        Me.ty0.Size = New System.Drawing.Size(165, 25)
+        Me.ty0.TabIndex = 184
+        '
+        'lbTxtDos
+        '
+        Me.lbTxtDos.AutoSize = True
+        Me.lbTxtDos.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbTxtDos.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.lbTxtDos.Location = New System.Drawing.Point(65, 143)
+        Me.lbTxtDos.Name = "lbTxtDos"
+        Me.lbTxtDos.Size = New System.Drawing.Size(31, 17)
+        Me.lbTxtDos.TabIndex = 183
+        Me.lbTxtDos.Text = "y(0)"
+        '
+        'BtnLimpiar
+        '
+        Me.BtnLimpiar.BackColor = System.Drawing.Color.DarkGray
+        Me.BtnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnLimpiar.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnLimpiar.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BtnLimpiar.Location = New System.Drawing.Point(68, 315)
+        Me.BtnLimpiar.Name = "BtnLimpiar"
+        Me.BtnLimpiar.Size = New System.Drawing.Size(293, 34)
+        Me.BtnLimpiar.TabIndex = 182
+        Me.BtnLimpiar.Text = "Limpiar"
+        Me.BtnLimpiar.UseVisualStyleBackColor = False
+        '
+        'BtnSalir
+        '
+        Me.BtnSalir.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.BtnSalir.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnSalir.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnSalir.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BtnSalir.Location = New System.Drawing.Point(68, 355)
+        Me.BtnSalir.Name = "BtnSalir"
+        Me.BtnSalir.Size = New System.Drawing.Size(293, 34)
+        Me.BtnSalir.TabIndex = 181
+        Me.BtnSalir.Text = "Salir"
+        Me.BtnSalir.UseVisualStyleBackColor = False
+        '
+        'BtnCalcular
+        '
+        Me.BtnCalcular.BackColor = System.Drawing.Color.FromArgb(CType(CType(188, Byte), Integer), CType(CType(56, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.BtnCalcular.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnCalcular.FlatAppearance.BorderSize = 0
+        Me.BtnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCalcular.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnCalcular.ForeColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BtnCalcular.Location = New System.Drawing.Point(68, 274)
+        Me.BtnCalcular.Name = "BtnCalcular"
+        Me.BtnCalcular.Size = New System.Drawing.Size(293, 34)
+        Me.BtnCalcular.TabIndex = 180
+        Me.BtnCalcular.Text = "Calcular"
+        Me.BtnCalcular.UseVisualStyleBackColor = False
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(65, 81)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(101, 17)
+        Me.Label3.TabIndex = 178
+        Me.Label3.Text = "Dame la función"
+        '
+        'tf
+        '
+        Me.tf.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
+        Me.tf.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.tf.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tf.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.tf.Location = New System.Drawing.Point(180, 78)
+        Me.tf.Name = "tf"
+        Me.tf.Size = New System.Drawing.Size(165, 25)
+        Me.tf.TabIndex = 176
+        '
+        'tc
+        '
+        Me.tc.BackColor = System.Drawing.Color.FromArgb(CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer), CType(CType(217, Byte), Integer))
+        Me.tc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.tc.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tc.ForeColor = System.Drawing.SystemColors.WindowText
+        Me.tc.Location = New System.Drawing.Point(180, 235)
+        Me.tc.Name = "tc"
+        Me.tc.Size = New System.Drawing.Size(165, 25)
+        Me.tc.TabIndex = 179
+        '
+        'lc
+        '
+        Me.lc.AutoSize = True
+        Me.lc.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lc.ForeColor = System.Drawing.SystemColors.ControlText
+        Me.lc.Location = New System.Drawing.Point(65, 238)
+        Me.lc.Name = "lc"
+        Me.lc.Size = New System.Drawing.Size(75, 17)
+        Me.lc.TabIndex = 177
+        Me.lc.Text = "Dame cifras"
+        '
+        'Derivada_RungeKutta
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -358,25 +322,27 @@ Partial Class Derivada_Euler
         Me.Controls.Add(Me.tc)
         Me.Controls.Add(Me.lc)
         Me.Controls.Add(Me.Panel2)
-        Me.Controls.Add(Me.Panel1)
-        Me.Name = "Derivada_Euler"
-        Me.Text = "Derivada_Euler"
-        CType(Me.nav_Home, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
-        CType(Me.Salida, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Name = "Derivada_RungeKutta"
+        Me.Text = "Derivada_RungeKutta"
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Salida, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents nav_Home As PictureBox
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Panel1 As Panel
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents Label4 As Label
+    Friend WithEvents th As TextBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents txf As TextBox
     Friend WithEvents Salida As DataGridView
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents lbresu As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
@@ -390,13 +356,4 @@ Partial Class Derivada_Euler
     Friend WithEvents tf As TextBox
     Friend WithEvents tc As TextBox
     Friend WithEvents lc As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents txf As TextBox
-    Friend WithEvents Column1 As DataGridViewTextBoxColumn
-    Friend WithEvents Column2 As DataGridViewTextBoxColumn
-    Friend WithEvents Label4 As Label
-    Friend WithEvents th As TextBox
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Label7 As Label
 End Class
