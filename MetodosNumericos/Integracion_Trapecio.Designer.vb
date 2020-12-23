@@ -108,7 +108,7 @@ Partial Class Integracion_Trapecio
         Legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top
         Legend1.Name = "Legend1"
         Me.grafica.Legends.Add(Legend1)
-        Me.grafica.Location = New System.Drawing.Point(591, 150)
+        Me.grafica.Location = New System.Drawing.Point(436, 122)
         Me.grafica.Name = "grafica"
         Me.grafica.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry
         Series1.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.TopBottom
@@ -127,7 +127,7 @@ Partial Class Integracion_Trapecio
         Series2.Name = "Series2"
         Me.grafica.Series.Add(Series1)
         Me.grafica.Series.Add(Series2)
-        Me.grafica.Size = New System.Drawing.Size(381, 300)
+        Me.grafica.Size = New System.Drawing.Size(523, 253)
         Me.grafica.TabIndex = 134
         Me.grafica.Text = "Chart1"
         '
@@ -135,9 +135,9 @@ Partial Class Integracion_Trapecio
         '
         Me.Salida.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.Salida.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
-        Me.Salida.Location = New System.Drawing.Point(12, 393)
+        Me.Salida.Location = New System.Drawing.Point(23, 393)
         Me.Salida.Name = "Salida"
-        Me.Salida.Size = New System.Drawing.Size(564, 127)
+        Me.Salida.Size = New System.Drawing.Size(936, 127)
         Me.Salida.TabIndex = 131
         '
         'Column1

@@ -108,7 +108,7 @@ Partial Class Integracion_Simpson
         Legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top
         Legend1.Name = "Legend1"
         Me.grafica.Legends.Add(Legend1)
-        Me.grafica.Location = New System.Drawing.Point(591, 142)
+        Me.grafica.Location = New System.Drawing.Point(437, 114)
         Me.grafica.Name = "grafica"
         Me.grafica.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry
         Series1.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.TopBottom
@@ -127,7 +127,7 @@ Partial Class Integracion_Simpson
         Series2.Name = "Series2"
         Me.grafica.Series.Add(Series1)
         Me.grafica.Series.Add(Series2)
-        Me.grafica.Size = New System.Drawing.Size(381, 300)
+        Me.grafica.Size = New System.Drawing.Size(524, 253)
         Me.grafica.TabIndex = 150
         Me.grafica.Text = "Chart1"
         '
@@ -135,9 +135,9 @@ Partial Class Integracion_Simpson
         '
         Me.Salida.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.Salida.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
-        Me.Salida.Location = New System.Drawing.Point(12, 385)
+        Me.Salida.Location = New System.Drawing.Point(25, 385)
         Me.Salida.Name = "Salida"
-        Me.Salida.Size = New System.Drawing.Size(564, 127)
+        Me.Salida.Size = New System.Drawing.Size(936, 127)
         Me.Salida.TabIndex = 149
         '
         'Column1

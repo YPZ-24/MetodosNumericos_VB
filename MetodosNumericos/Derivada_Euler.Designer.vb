@@ -90,9 +90,9 @@ Partial Class Derivada_Euler
         '
         Me.Salida.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.Salida.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2})
-        Me.Salida.Location = New System.Drawing.Point(21, 402)
+        Me.Salida.Location = New System.Drawing.Point(21, 321)
         Me.Salida.Name = "Salida"
-        Me.Salida.Size = New System.Drawing.Size(564, 127)
+        Me.Salida.Size = New System.Drawing.Size(941, 188)
         Me.Salida.TabIndex = 149
         '
         'Column1
@@ -110,7 +110,7 @@ Partial Class Derivada_Euler
         Me.lbresu.AutoSize = True
         Me.lbresu.Font = New System.Drawing.Font("Advent Pro", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbresu.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lbresu.Location = New System.Drawing.Point(575, 88)
+        Me.lbresu.Location = New System.Drawing.Point(575, 100)
         Me.lbresu.Name = "lbresu"
         Me.lbresu.Size = New System.Drawing.Size(188, 22)
         Me.lbresu.TabIndex = 148
@@ -121,7 +121,7 @@ Partial Class Derivada_Euler
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Advent Pro Medium", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(206, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(451, 89)
+        Me.Label2.Location = New System.Drawing.Point(451, 101)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(143, 22)
         Me.Label2.TabIndex = 147
@@ -132,7 +132,7 @@ Partial Class Derivada_Euler
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label1.Location = New System.Drawing.Point(65, 119)
+        Me.Label1.Location = New System.Drawing.Point(65, 131)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(31, 17)
         Me.Label1.TabIndex = 146
@@ -144,7 +144,7 @@ Partial Class Derivada_Euler
         Me.tx0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.tx0.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tx0.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.tx0.Location = New System.Drawing.Point(180, 116)
+        Me.tx0.Location = New System.Drawing.Point(180, 128)
         Me.tx0.Name = "tx0"
         Me.tx0.Size = New System.Drawing.Size(165, 25)
         Me.tx0.TabIndex = 145
@@ -155,7 +155,7 @@ Partial Class Derivada_Euler
         Me.ty0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.ty0.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ty0.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.ty0.Location = New System.Drawing.Point(180, 147)
+        Me.ty0.Location = New System.Drawing.Point(180, 159)
         Me.ty0.Name = "ty0"
         Me.ty0.Size = New System.Drawing.Size(165, 25)
         Me.ty0.TabIndex = 144
@@ -165,7 +165,7 @@ Partial Class Derivada_Euler
         Me.lbTxtDos.AutoSize = True
         Me.lbTxtDos.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbTxtDos.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lbTxtDos.Location = New System.Drawing.Point(65, 150)
+        Me.lbTxtDos.Location = New System.Drawing.Point(65, 162)
         Me.lbTxtDos.Name = "lbTxtDos"
         Me.lbTxtDos.Size = New System.Drawing.Size(31, 17)
         Me.lbTxtDos.TabIndex = 143
@@ -178,7 +178,7 @@ Partial Class Derivada_Euler
         Me.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnLimpiar.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnLimpiar.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BtnLimpiar.Location = New System.Drawing.Point(68, 322)
+        Me.BtnLimpiar.Location = New System.Drawing.Point(455, 194)
         Me.BtnLimpiar.Name = "BtnLimpiar"
         Me.BtnLimpiar.Size = New System.Drawing.Size(293, 34)
         Me.BtnLimpiar.TabIndex = 142
@@ -192,7 +192,7 @@ Partial Class Derivada_Euler
         Me.BtnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnSalir.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnSalir.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BtnSalir.Location = New System.Drawing.Point(68, 362)
+        Me.BtnSalir.Location = New System.Drawing.Point(455, 234)
         Me.BtnSalir.Name = "BtnSalir"
         Me.BtnSalir.Size = New System.Drawing.Size(293, 34)
         Me.BtnSalir.TabIndex = 141
@@ -207,7 +207,7 @@ Partial Class Derivada_Euler
         Me.BtnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnCalcular.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnCalcular.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BtnCalcular.Location = New System.Drawing.Point(68, 281)
+        Me.BtnCalcular.Location = New System.Drawing.Point(455, 153)
         Me.BtnCalcular.Name = "BtnCalcular"
         Me.BtnCalcular.Size = New System.Drawing.Size(293, 34)
         Me.BtnCalcular.TabIndex = 140
@@ -219,7 +219,7 @@ Partial Class Derivada_Euler
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Black
-        Me.Label3.Location = New System.Drawing.Point(65, 88)
+        Me.Label3.Location = New System.Drawing.Point(65, 100)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(101, 17)
         Me.Label3.TabIndex = 138
@@ -231,7 +231,7 @@ Partial Class Derivada_Euler
         Me.tf.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.tf.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tf.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.tf.Location = New System.Drawing.Point(180, 85)
+        Me.tf.Location = New System.Drawing.Point(180, 97)
         Me.tf.Name = "tf"
         Me.tf.Size = New System.Drawing.Size(165, 25)
         Me.tf.TabIndex = 136
@@ -242,7 +242,7 @@ Partial Class Derivada_Euler
         Me.tc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.tc.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tc.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.tc.Location = New System.Drawing.Point(180, 242)
+        Me.tc.Location = New System.Drawing.Point(180, 254)
         Me.tc.Name = "tc"
         Me.tc.Size = New System.Drawing.Size(165, 25)
         Me.tc.TabIndex = 139
@@ -252,7 +252,7 @@ Partial Class Derivada_Euler
         Me.lc.AutoSize = True
         Me.lc.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lc.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lc.Location = New System.Drawing.Point(65, 245)
+        Me.lc.Location = New System.Drawing.Point(65, 257)
         Me.lc.Name = "lc"
         Me.lc.Size = New System.Drawing.Size(75, 17)
         Me.lc.TabIndex = 137
@@ -263,7 +263,7 @@ Partial Class Derivada_Euler
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label6.Location = New System.Drawing.Point(65, 183)
+        Me.Label6.Location = New System.Drawing.Point(65, 195)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(27, 17)
         Me.Label6.TabIndex = 155
@@ -275,7 +275,7 @@ Partial Class Derivada_Euler
         Me.txf.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txf.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txf.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txf.Location = New System.Drawing.Point(180, 180)
+        Me.txf.Location = New System.Drawing.Point(180, 192)
         Me.txf.Name = "txf"
         Me.txf.Size = New System.Drawing.Size(165, 25)
         Me.txf.TabIndex = 154
@@ -285,7 +285,7 @@ Partial Class Derivada_Euler
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Advent Pro", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label4.Location = New System.Drawing.Point(65, 214)
+        Me.Label4.Location = New System.Drawing.Point(65, 226)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(15, 17)
         Me.Label4.TabIndex = 157
@@ -297,7 +297,7 @@ Partial Class Derivada_Euler
         Me.th.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.th.Font = New System.Drawing.Font("HP Simplified", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.th.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.th.Location = New System.Drawing.Point(180, 211)
+        Me.th.Location = New System.Drawing.Point(180, 223)
         Me.th.Name = "th"
         Me.th.Size = New System.Drawing.Size(165, 25)
         Me.th.TabIndex = 156

@@ -108,7 +108,7 @@ Partial Class Integracion_CuadraturaGauss
         Legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top
         Legend1.Name = "Legend1"
         Me.grafica.Legends.Add(Legend1)
-        Me.grafica.Location = New System.Drawing.Point(590, 143)
+        Me.grafica.Location = New System.Drawing.Point(430, 115)
         Me.grafica.Name = "grafica"
         Me.grafica.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry
         Series1.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.TopBottom
@@ -127,7 +127,7 @@ Partial Class Integracion_CuadraturaGauss
         Series2.Name = "Series2"
         Me.grafica.Series.Add(Series1)
         Me.grafica.Series.Add(Series2)
-        Me.grafica.Size = New System.Drawing.Size(381, 300)
+        Me.grafica.Size = New System.Drawing.Size(518, 265)
         Me.grafica.TabIndex = 166
         Me.grafica.Text = "Chart1"
         '
@@ -137,7 +137,7 @@ Partial Class Integracion_CuadraturaGauss
         Me.Salida.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
         Me.Salida.Location = New System.Drawing.Point(11, 386)
         Me.Salida.Name = "Salida"
-        Me.Salida.Size = New System.Drawing.Size(564, 127)
+        Me.Salida.Size = New System.Drawing.Size(937, 127)
         Me.Salida.TabIndex = 165
         '
         'Column1

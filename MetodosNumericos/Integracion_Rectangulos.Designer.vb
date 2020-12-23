@@ -221,7 +221,7 @@ Partial Class Integracion_Rectangulos
         Me.lbresu.AutoSize = True
         Me.lbresu.Font = New System.Drawing.Font("Advent Pro", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbresu.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lbresu.Location = New System.Drawing.Point(575, 100)
+        Me.lbresu.Location = New System.Drawing.Point(575, 95)
         Me.lbresu.Name = "lbresu"
         Me.lbresu.Size = New System.Drawing.Size(188, 22)
         Me.lbresu.TabIndex = 105
@@ -232,7 +232,7 @@ Partial Class Integracion_Rectangulos
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Advent Pro Medium", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(206, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(451, 101)
+        Me.Label2.Location = New System.Drawing.Point(451, 96)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(125, 22)
         Me.Label2.TabIndex = 104
@@ -242,9 +242,9 @@ Partial Class Integracion_Rectangulos
         '
         Me.Salida.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.Salida.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3})
-        Me.Salida.Location = New System.Drawing.Point(12, 402)
+        Me.Salida.Location = New System.Drawing.Point(23, 402)
         Me.Salida.Name = "Salida"
-        Me.Salida.Size = New System.Drawing.Size(564, 127)
+        Me.Salida.Size = New System.Drawing.Size(934, 127)
         Me.Salida.TabIndex = 106
         '
         'Column1
@@ -270,7 +270,7 @@ Partial Class Integracion_Rectangulos
         Legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top
         Legend1.Name = "Legend1"
         Me.grafica.Legends.Add(Legend1)
-        Me.grafica.Location = New System.Drawing.Point(591, 159)
+        Me.grafica.Location = New System.Drawing.Point(432, 131)
         Me.grafica.Name = "grafica"
         Me.grafica.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Berry
         Series1.BackGradientStyle = System.Windows.Forms.DataVisualization.Charting.GradientStyle.TopBottom
@@ -289,7 +289,7 @@ Partial Class Integracion_Rectangulos
         Series2.Name = "Series2"
         Me.grafica.Series.Add(Series1)
         Me.grafica.Series.Add(Series2)
-        Me.grafica.Size = New System.Drawing.Size(381, 300)
+        Me.grafica.Size = New System.Drawing.Size(514, 253)
         Me.grafica.TabIndex = 116
         Me.grafica.Text = "Chart1"
         '
