@@ -46,8 +46,6 @@ Partial Class Integracion_Rectangulos
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.lbh = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.grafica = New System.Windows.Forms.DataVisualization.Charting.Chart()
         Me.btnGraficar = New System.Windows.Forms.Button()
         CType(Me.nav_Home, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -264,28 +262,6 @@ Partial Class Integracion_Rectangulos
         Me.Column3.HeaderText = "error"
         Me.Column3.Name = "Column3"
         '
-        'lbh
-        '
-        Me.lbh.AutoSize = True
-        Me.lbh.Font = New System.Drawing.Font("Advent Pro", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbh.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.lbh.Location = New System.Drawing.Point(575, 72)
-        Me.lbh.Name = "lbh"
-        Me.lbh.Size = New System.Drawing.Size(161, 19)
-        Me.lbh.TabIndex = 115
-        Me.lbh.Text = "Aún no se ha encontrado"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Advent Pro Medium", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(206, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(453, 73)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(40, 22)
-        Me.Label4.TabIndex = 114
-        Me.Label4.Text = "h = "
-        '
         'grafica
         '
         Me.grafica.BorderSkin.BackColor = System.Drawing.Color.Transparent
@@ -340,8 +316,6 @@ Partial Class Integracion_Rectangulos
         Me.ClientSize = New System.Drawing.Size(984, 541)
         Me.Controls.Add(Me.btnGraficar)
         Me.Controls.Add(Me.grafica)
-        Me.Controls.Add(Me.lbh)
-        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Salida)
         Me.Controls.Add(Me.lbresu)
         Me.Controls.Add(Me.Label2)
@@ -386,8 +360,6 @@ Partial Class Integracion_Rectangulos
     Friend WithEvents lbresu As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Salida As DataGridView
-    Friend WithEvents lbh As Label
-    Friend WithEvents Label4 As Label
     Friend WithEvents grafica As DataVisualization.Charting.Chart
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn

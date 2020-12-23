@@ -162,9 +162,9 @@ Partial Class Derivada_RungeKutta
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(96, Byte), Integer), CType(CType(206, Byte), Integer))
         Me.Label2.Location = New System.Drawing.Point(451, 82)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(125, 22)
+        Me.Label2.Size = New System.Drawing.Size(143, 22)
         Me.Label2.TabIndex = 187
-        Me.Label2.Text = "RESULTADO = "
+        Me.Label2.Text = "RESULTADO Y = "
         '
         'Label1
         '

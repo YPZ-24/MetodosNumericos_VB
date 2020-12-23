@@ -7,6 +7,17 @@ Public Class Integracion_Simpson
     Dim inte(500), err(500) As Single
     Dim g As Graphics
 
+    Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
+        ta.Text = ""
+        tb.Text = ""
+        tc.Text = ""
+        tf.Text = ""
+        lbresu.Text = ""
+        Salida.Rows.Clear()
+        grafica.Series(0).Points.Clear()
+        grafica.Series(1).Points.Clear()
+    End Sub
+
     Function f(x As Single) As Single
         Dim parser As ExpressionParser
         parser = New ExpressionParser
@@ -49,6 +60,8 @@ Public Class Integracion_Simpson
             err(i) = Math.Abs((inte(i) - inte(i - 1)) / inte(i))
             Salida.Rows.Add(n, Math.Round(inte(i), redon), Math.Round(err(i), redon))
         Loop
+
+        lbresu.Text = Math.Round(inte(i), redon)
 
     End Sub
 

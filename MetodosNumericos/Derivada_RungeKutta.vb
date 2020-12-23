@@ -4,8 +4,19 @@ Public Class Derivada_RungeKutta
 
     Dim c, redon, i As Integer
     Dim h, xf As Single
-    Dim inte(500), err(500) As Single
-    Dim y(500), x(500), yp(500) As Single
+    Dim y(500), x(500) As Single
+
+    Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
+        tf.Text = ""
+        tx0.Text = ""
+        ty0.Text = ""
+        txf.Text = ""
+        th.Text = ""
+        tc.Text = ""
+        lbresu.Text = ""
+        Salida.Rows.Clear()
+    End Sub
+
     Dim k1(500), k2(500), k3(500), k4(500) As Single
 
     Private Sub BtnCalcular_Click(sender As Object, e As EventArgs) Handles BtnCalcular.Click
@@ -30,6 +41,9 @@ Public Class Derivada_RungeKutta
             Salida.Rows.Add(Math.Round(x(i + 1), redon), Math.Round(y(i + 1), redon))
             i = i + 1
         Loop
+
+        lbresu.Text = Math.Round(y(i + 1), redon)
+
     End Sub
 
     Function f(x As Single, y As Single) As Single

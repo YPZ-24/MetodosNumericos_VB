@@ -4,9 +4,19 @@ Public Class Integracion_Rectangulos
 
     Dim c, redon, i As Integer
     Dim h, a, b, n, suma, res, ec As Single
-
     Dim inte(500), err(500) As Single
     Dim g As Graphics
+
+    Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
+        ta.Text = ""
+        tb.Text = ""
+        tc.Text = ""
+        tf.Text = ""
+        lbresu.Text = ""
+        Salida.Rows.Clear()
+        grafica.Series(0).Points.Clear()
+        grafica.Series(1).Points.Clear()
+    End Sub
 
     Function f(x As Single) As Single
         Dim parser As ExpressionParser
@@ -26,7 +36,6 @@ Public Class Integracion_Rectangulos
         h = (b - a) / n
         redon = c + 2
         ec = 0.5 * 10 ^ (-c)
-
 
         For k = 0 To n - 1 Step 1
             res = f(a + k * h)
@@ -49,6 +58,8 @@ Public Class Integracion_Rectangulos
             err(i) = Math.Abs((inte(i) - inte(i - 1)) / inte(i))
             Salida.Rows.Add(n, Math.Round(inte(i), redon), Math.Round(err(i), redon))
         Loop
+
+        lbresu.Text = Math.Round(inte(i), redon)
 
     End Sub
 

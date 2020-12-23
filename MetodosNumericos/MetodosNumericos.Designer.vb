@@ -27,6 +27,7 @@ Partial Class MetodosNumericos
         Me.FlowLayoutPanel4 = New System.Windows.Forms.FlowLayoutPanel()
         Me.IconButton6 = New FontAwesome.Sharp.IconButton()
         Me.IconButton5 = New FontAwesome.Sharp.IconButton()
+        Me.IconButton7 = New FontAwesome.Sharp.IconButton()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.nav_Home = New System.Windows.Forms.PictureBox()
@@ -50,7 +51,6 @@ Partial Class MetodosNumericos
         Me.IconButton3 = New FontAwesome.Sharp.IconButton()
         Me.IconButton4 = New FontAwesome.Sharp.IconButton()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.IconButton7 = New FontAwesome.Sharp.IconButton()
         Me.panel_Principal.SuspendLayout()
         Me.FlowLayoutPanel4.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -90,7 +90,7 @@ Partial Class MetodosNumericos
         '
         'IconButton6
         '
-        Me.IconButton6.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.IconButton6.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(115, Byte), Integer), CType(CType(153, Byte), Integer))
         Me.IconButton6.FlatAppearance.BorderSize = 0
         Me.IconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton6.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -112,7 +112,7 @@ Partial Class MetodosNumericos
         '
         'IconButton5
         '
-        Me.IconButton5.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.IconButton5.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(115, Byte), Integer))
         Me.IconButton5.FlatAppearance.BorderSize = 0
         Me.IconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton5.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -131,6 +131,28 @@ Partial Class MetodosNumericos
         Me.IconButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.IconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.IconButton5.UseVisualStyleBackColor = False
+        '
+        'IconButton7
+        '
+        Me.IconButton7.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(38, Byte), Integer))
+        Me.IconButton7.FlatAppearance.BorderSize = 0
+        Me.IconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.IconButton7.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IconButton7.ForeColor = System.Drawing.Color.White
+        Me.IconButton7.IconChar = FontAwesome.Sharp.IconChar.Plus
+        Me.IconButton7.IconColor = System.Drawing.Color.White
+        Me.IconButton7.IconFont = FontAwesome.Sharp.IconFont.[Auto]
+        Me.IconButton7.IconSize = 35
+        Me.IconButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton7.Location = New System.Drawing.Point(3, 123)
+        Me.IconButton7.Name = "IconButton7"
+        Me.IconButton7.RightToLeft = System.Windows.Forms.RightToLeft.No
+        Me.IconButton7.Size = New System.Drawing.Size(197, 54)
+        Me.IconButton7.TabIndex = 3
+        Me.IconButton7.Text = "Derivada (Runge Kutta)"
+        Me.IconButton7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.IconButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
+        Me.IconButton7.UseVisualStyleBackColor = False
         '
         'Label2
         '
@@ -442,7 +464,7 @@ Partial Class MetodosNumericos
         '
         'IconButton1
         '
-        Me.IconButton1.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.IconButton1.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.IconButton1.FlatAppearance.BorderSize = 0
         Me.IconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton1.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -464,7 +486,7 @@ Partial Class MetodosNumericos
         '
         'IconButton2
         '
-        Me.IconButton2.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.IconButton2.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(77, Byte), Integer))
         Me.IconButton2.FlatAppearance.BorderSize = 0
         Me.IconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton2.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -486,7 +508,7 @@ Partial Class MetodosNumericos
         '
         'IconButton3
         '
-        Me.IconButton3.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.IconButton3.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(153, Byte), Integer))
         Me.IconButton3.FlatAppearance.BorderSize = 0
         Me.IconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton3.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -508,7 +530,7 @@ Partial Class MetodosNumericos
         '
         'IconButton4
         '
-        Me.IconButton4.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.IconButton4.BackColor = System.Drawing.Color.FromArgb(CType(CType(77, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(153, Byte), Integer))
         Me.IconButton4.FlatAppearance.BorderSize = 0
         Me.IconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton4.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -537,28 +559,6 @@ Partial Class MetodosNumericos
         Me.Label1.Size = New System.Drawing.Size(220, 32)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "PRIMER PARCIAL"
-        '
-        'IconButton7
-        '
-        Me.IconButton7.BackColor = System.Drawing.Color.FromArgb(CType(CType(153, Byte), Integer), CType(CType(153, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.IconButton7.FlatAppearance.BorderSize = 0
-        Me.IconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.IconButton7.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IconButton7.ForeColor = System.Drawing.Color.White
-        Me.IconButton7.IconChar = FontAwesome.Sharp.IconChar.Plus
-        Me.IconButton7.IconColor = System.Drawing.Color.White
-        Me.IconButton7.IconFont = FontAwesome.Sharp.IconFont.[Auto]
-        Me.IconButton7.IconSize = 35
-        Me.IconButton7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton7.Location = New System.Drawing.Point(3, 123)
-        Me.IconButton7.Name = "IconButton7"
-        Me.IconButton7.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.IconButton7.Size = New System.Drawing.Size(197, 54)
-        Me.IconButton7.TabIndex = 3
-        Me.IconButton7.Text = "Derivada (Runge Kutta)"
-        Me.IconButton7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.IconButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
-        Me.IconButton7.UseVisualStyleBackColor = False
         '
         'MetodosNumericos
         '

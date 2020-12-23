@@ -6,10 +6,22 @@ Public Class Integracion_CuadraturaGauss
     Dim h, a, b, n, suma, ec As Single
     Dim fila As Integer
     Dim xk, ck As Single
-
+    Dim inte(500), err(500) As Single
+    Dim g As Graphics
     Dim ExcelApp = New Microsoft.Office.Interop.Excel.Application
     Dim path As String = Environment.CurrentDirectory + "\" + "tablaSubdivisiones"
     Dim Libro = ExcelApp.Workbooks.Open(Filename:=path)
+
+    Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
+        ta.Text = ""
+        tb.Text = ""
+        tc.Text = ""
+        tf.Text = ""
+        lbresu.Text = ""
+        Salida.Rows.Clear()
+        grafica.Series(0).Points.Clear()
+        grafica.Series(1).Points.Clear()
+    End Sub
 
     Private Sub btnGraficar_Click(sender As Object, e As EventArgs) Handles btnGraficar.Click
         g = CreateGraphics()
@@ -44,7 +56,7 @@ Public Class Integracion_CuadraturaGauss
             ck = Libro.Sheets(1).Cells(fila + (k - 1), 4).Value
             suma += ck * f(((b + a) / 2) + ((b - a) / 2) * xk)
         Next
-        inte(i) = ((b-a)/2)*suma 
+        inte(i) = ((b - a) / 2) * suma
 
         Salida.Rows.Add(n, Math.Round(inte(i), redon), "----")
 
@@ -73,10 +85,10 @@ Public Class Integracion_CuadraturaGauss
             err(i) = Math.Abs((inte(i) - inte(i - 1)) / inte(i))
             Salida.Rows.Add(n, Math.Round(inte(i), redon), Math.Round(err(i), redon))
         Loop
-    End Sub
 
-    Dim inte(500), err(500) As Single
-    Dim g As Graphics
+        lbresu.Text = Math.Round(inte(i), redon)
+
+    End Sub
 
     Function f(x As Single) As Single
         Dim parser As ExpressionParser
