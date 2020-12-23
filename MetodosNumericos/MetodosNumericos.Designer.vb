@@ -95,7 +95,7 @@ Partial Class MetodosNumericos
         Me.IconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton6.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.IconButton6.ForeColor = System.Drawing.Color.White
-        Me.IconButton6.IconChar = FontAwesome.Sharp.IconChar.Plus
+        Me.IconButton6.IconChar = FontAwesome.Sharp.IconChar.Erlang
         Me.IconButton6.IconColor = System.Drawing.Color.White
         Me.IconButton6.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.IconButton6.IconSize = 35
@@ -117,7 +117,7 @@ Partial Class MetodosNumericos
         Me.IconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton5.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.IconButton5.ForeColor = System.Drawing.Color.White
-        Me.IconButton5.IconChar = FontAwesome.Sharp.IconChar.Plus
+        Me.IconButton5.IconChar = FontAwesome.Sharp.IconChar.Etsy
         Me.IconButton5.IconColor = System.Drawing.Color.White
         Me.IconButton5.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.IconButton5.IconSize = 35
@@ -139,7 +139,7 @@ Partial Class MetodosNumericos
         Me.IconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton7.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.IconButton7.ForeColor = System.Drawing.Color.White
-        Me.IconButton7.IconChar = FontAwesome.Sharp.IconChar.Plus
+        Me.IconButton7.IconChar = FontAwesome.Sharp.IconChar.SortAmountUpAlt
         Me.IconButton7.IconColor = System.Drawing.Color.White
         Me.IconButton7.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.IconButton7.IconSize = 35
@@ -469,7 +469,7 @@ Partial Class MetodosNumericos
         Me.IconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton1.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.IconButton1.ForeColor = System.Drawing.Color.White
-        Me.IconButton1.IconChar = FontAwesome.Sharp.IconChar.Plus
+        Me.IconButton1.IconChar = FontAwesome.Sharp.IconChar.Signal
         Me.IconButton1.IconColor = System.Drawing.Color.White
         Me.IconButton1.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.IconButton1.IconSize = 35
@@ -491,7 +491,7 @@ Partial Class MetodosNumericos
         Me.IconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton2.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.IconButton2.ForeColor = System.Drawing.Color.White
-        Me.IconButton2.IconChar = FontAwesome.Sharp.IconChar.Plus
+        Me.IconButton2.IconChar = FontAwesome.Sharp.IconChar.PollH
         Me.IconButton2.IconColor = System.Drawing.Color.White
         Me.IconButton2.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.IconButton2.IconSize = 35
@@ -513,7 +513,7 @@ Partial Class MetodosNumericos
         Me.IconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton3.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.IconButton3.ForeColor = System.Drawing.Color.White
-        Me.IconButton3.IconChar = FontAwesome.Sharp.IconChar.Plus
+        Me.IconButton3.IconChar = FontAwesome.Sharp.IconChar.Poll
         Me.IconButton3.IconColor = System.Drawing.Color.White
         Me.IconButton3.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.IconButton3.IconSize = 35
@@ -535,7 +535,7 @@ Partial Class MetodosNumericos
         Me.IconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.IconButton4.Font = New System.Drawing.Font("Advent Pro Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.IconButton4.ForeColor = System.Drawing.Color.White
-        Me.IconButton4.IconChar = FontAwesome.Sharp.IconChar.Plus
+        Me.IconButton4.IconChar = FontAwesome.Sharp.IconChar.ThLarge
         Me.IconButton4.IconColor = System.Drawing.Color.White
         Me.IconButton4.IconFont = FontAwesome.Sharp.IconFont.[Auto]
         Me.IconButton4.IconSize = 35
