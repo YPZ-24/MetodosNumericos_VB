@@ -158,11 +158,11 @@ Partial Class Integracion_Trapecio
         'lbresu
         '
         Me.lbresu.AutoSize = True
-        Me.lbresu.Font = New System.Drawing.Font("Advent Pro", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbresu.Font = New System.Drawing.Font("HP Simplified Light", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbresu.ForeColor = System.Drawing.SystemColors.ControlText
         Me.lbresu.Location = New System.Drawing.Point(575, 91)
         Me.lbresu.Name = "lbresu"
-        Me.lbresu.Size = New System.Drawing.Size(188, 22)
+        Me.lbresu.Size = New System.Drawing.Size(200, 22)
         Me.lbresu.TabIndex = 130
         Me.lbresu.Text = "Aún no se ha encontrado"
         '

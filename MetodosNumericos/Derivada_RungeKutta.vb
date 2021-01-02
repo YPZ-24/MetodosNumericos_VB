@@ -47,7 +47,7 @@ Public Class Derivada_RungeKutta
             i = i + 1
         Loop
 
-        lbresu.Text = Math.Round(y(i + 1), redon)
+        lbresu.Text = "y(" & xf & ")" & " = " & Math.Round(y(i), redon)
 
     End Sub
 
