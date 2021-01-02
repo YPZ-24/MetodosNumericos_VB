@@ -1,7 +1,11 @@
 ﻿Public Class MetodosNumericos
+
+
+
     Private Sub nav_Bi_Click(sender As Object, e As EventArgs) Handles nav_Bi.Click
-        Biseccion.Show()
-        Me.Hide()
+        InputBox(1.5 < 1.5)
+        'Biseccion.Show()
+        'Me.Hide()
     End Sub
 
     Private Sub nav_Im_Click(sender As Object, e As EventArgs) Handles nav_Im.Click

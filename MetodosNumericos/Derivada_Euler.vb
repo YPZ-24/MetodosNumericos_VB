@@ -30,7 +30,14 @@ Public Class Derivada_Euler
         Return parser.Parse(tf.Text)
     End Function
 
+    Function AreSingleEquals(n1 As Single, n2 As Single) As Boolean
+        Dim acceptableDifference As Double = 0.000001
+        Dim absoluteDifference As Double = Math.Abs(n1 - n2)
+        Return absoluteDifference <= acceptableDifference
+    End Function
+
     Private Sub BtnCalcular_Click(sender As Object, e As EventArgs) Handles BtnCalcular.Click
+        i = 0
         h = th.Text
         x(0) = tx0.Text
         y(0) = ty0.Text
@@ -39,10 +46,11 @@ Public Class Derivada_Euler
         redon = c + 2
         Salida.Rows.Add(Math.Round(x(0), redon), Math.Round(y(0), redon))
 
-        i = 0
-        Do While x(i) < xf
+        Do While (x(i) < xf) And Not AreSingleEquals(x(i), xf)
+
             y(i + 1) = y(i) + h * (f(x(i), y(i)))
             x(i + 1) = x(i) + h
+
             Salida.Rows.Add(Math.Round(x(i + 1), redon), Math.Round(y(i + 1), redon))
             i = i + 1
         Loop
