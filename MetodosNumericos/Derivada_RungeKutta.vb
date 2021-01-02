@@ -5,6 +5,7 @@ Public Class Derivada_RungeKutta
     Dim c, redon, i As Integer
     Dim h, xf As Single
     Dim y(500), x(500) As Single
+    Dim k1(500), k2(500), k3(500), k4(500) As Single
 
     Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
         tf.Text = ""
@@ -17,7 +18,11 @@ Public Class Derivada_RungeKutta
         Salida.Rows.Clear()
     End Sub
 
-    Dim k1(500), k2(500), k3(500), k4(500) As Single
+    Function AreSingleEquals(n1 As Single, n2 As Single) As Boolean
+        Dim acceptableDifference As Double = 0.000001
+        Dim absoluteDifference As Double = Math.Abs(n1 - n2)
+        Return absoluteDifference <= acceptableDifference
+    End Function
 
     Private Sub BtnCalcular_Click(sender As Object, e As EventArgs) Handles BtnCalcular.Click
         h = th.Text
@@ -29,7 +34,7 @@ Public Class Derivada_RungeKutta
         Salida.Rows.Add(Math.Round(x(0), redon), Math.Round(y(0), redon))
 
         i = 0
-        Do While x(i) < xf
+        Do While (x(i) < xf) And Not AreSingleEquals(x(i), xf)
             x(i + 1) = x(i) + h
 
             k1(i) = f(x(i), y(i))
