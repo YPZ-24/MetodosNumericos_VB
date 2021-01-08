@@ -31,3 +31,36 @@ C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\obj\Deb
 C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Derivada_Euler.resources
 C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Derivada_EulerMejorada.resources
 C:\Users\DELL\source\repos\CHIDO\CHIDO\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Derivada_RungeKutta.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\bin\Debug\MetodosNumericos.exe.config
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\bin\Debug\MetodosNumericos.exe
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\bin\Debug\MetodosNumericos.pdb
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\bin\Debug\MetodosNumericos.xml
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\bin\Debug\info.lundin.math.dll
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.vbprojAssemblyReference.cache
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.vbproj.ResolveComReference.cache
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Biseccion.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Derivada_Euler.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Derivada_EulerMejorada.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Derivada_RungeKutta.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.GaussSeidel.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Impares.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Integracion_CuadraturaGauss.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Integracion_Rectangulos.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Integracion_Simpson.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Integracion_Trapecio.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.InterpolacionLagrange.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.InterpolacionNewton.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Jacobi.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.MetodosNumericos.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.MinimosCuadrados.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.Resources.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.NewtonRaphson.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.RaizCuadradaDeDos.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.ReglaFalsa.resources
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.vbproj.GenerateResource.cache
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.vbproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.vbproj.CopyComplete
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.exe
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.xml
+C:\Users\DELL\Documents\UPIICSA 3S\Metodos Numericos\MetodosNumericos\MetodosNumericos\obj\Debug\MetodosNumericos.pdb

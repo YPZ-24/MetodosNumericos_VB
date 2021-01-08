@@ -17,6 +17,10 @@ Public Class Derivada_EulerMejorada
         Salida.Rows.Clear()
     End Sub
 
+    Private Sub BtnSalir_Click(sender As Object, e As EventArgs) Handles BtnSalir.Click
+        Me.Close()
+    End Sub
+
     Function AreSingleEquals(n1 As Single, n2 As Single) As Boolean
         Dim acceptableDifference As Double = 0.000001
         Dim absoluteDifference As Double = Math.Abs(n1 - n2)
